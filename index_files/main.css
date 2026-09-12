@@ -1,0 +1,12 @@
+/* Explain: Base reset and typography defaults */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background: var(--background-color);
+}
+
+body {
+    overflow-x: hidden;
+}

@@ -1,0 +1,14 @@
+/* Explain: Theme design tokens (colors, fonts) — single source of truth - */
+:root {
+    --primary-color: #0c4a6e;
+    --primary-hover: #075985;
+    --secondary-color: #0ea5e9;
+    --accent-color: #d97706;
+    --background-color: #f8fafc;
+    --surface-color: #ffffff;
+    --text-color: #0f172a;
+    --text-muted: #475569;
+    --border-color: #e2e8f0;
+    --font-heading: 'Playfair Display', serif;
+    --font-body: 'Inter', sans-serif;
+}
