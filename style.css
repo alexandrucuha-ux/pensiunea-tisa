@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+header {
+    background: url('hero.jpg') center/cover no-repeat;
+    padding: 40px;
+    color: white;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn {
+    background: #007bff;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn-outline {
+    border: 2px solid white;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.section {
+    padding: 60px 20px;
+}
+
+.section.dark {
+    background: #0a2a4d;
+    color: white;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.room-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    background: #0a2a4d;
+    color: white;
+    padding: 40px;
+}
+
+.copy {
+    text-align: center;
+    margin-top: 20px;
+}
